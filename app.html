@@ -69,17 +69,17 @@
                         display "Fizz Buzz".
                     </h4>
                     <h2 class="mt-5 border-bottom border-2">Instructions</h2>
-                    <p>Enter a starting value and an ending value. Press the button and the values will appear.</p>
+                    <p>Enter a Fizz and a Buzz value. Press the button and the values will appear.</p>
                 </div>
                 <div class="col col-lg-7">
                     <div>
                         <h5>Enter Values</h5>
                         <form class="row gy-2 gx-3">
                             <div class="col">
-                                <input id="startValue" type="number" class="form-control" placeholder="Start Value" value="0" aria-label="Start Value">
+                                <input id="fizzValue" type="number" class="form-control" placeholder="Fizz Value" value="1" aria-label="Fizz Value">
                             </div>
                             <div class="col">
-                                <input id="endValue" type="number" class="form-control" placeholder="End Value" value="100" aria-label="End Value">
+                                <input id="buzzValue" type="number" class="form-control" placeholder="Buzz Value" value="100" aria-label="Buzz Value">
                             </div>
                             <div class="col-12 d-flex justify-content-lg-end">
                                 <button id="btnSubmit" type="button" class="btn btn-outline-dark btn-lg">Buzz It</button>
@@ -92,6 +92,9 @@
                                     <!-- Results Displayed Here -->
                                 </tbody>
                             </table>
+                            <div class="alert alert-danger invisible" id="alert" role="alert">
+                                Please Enter Integers.
+                            </div>
                         </div>
                     </div>
                 </div>
