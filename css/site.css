@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #1d5888;
-    --secondary-color: #ff993b;
+    --primary-color: #4c2c92 ;
+    --secondary-color: #ff904d;
     --dark-color: #292929;
     --white-color: #e7e7e7;
 }
@@ -31,6 +31,11 @@ footer .social>a:hover {
 
 h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
+}
+
+.btn:hover {
+    opacity: 0.9;
+    background-color: var(--secondary-color);
 }
 
 .jsicon {
